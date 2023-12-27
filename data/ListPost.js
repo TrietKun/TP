@@ -2,80 +2,65 @@ var ListPost = [
     {
         id: 1,
         title: 'Post 1',
-        description: 'Description 1',
-        image: '../assets/LOL/postVideo/1.mp4',
-        content: 'Content 1'
+        description: '3 phút trước',
+        image: require('../assets/LOL/cover/1.jpg'),
+        content: 'Content 1',
+        idUser: 1
     },
     {
         id: 2,
         title: 'Post 2',
-        description: 'Description 2',
-        image: '../assets/LOL/postVideo/1.mp4',
-
-        content: 'Content 2'
+        description: '6 ngày trước',
+        image: require('../assets/LOL/cover/1.jpg'),
+        content: 'Content 2',
+        idUser: 1
     },
     {
         id: 3,
         title: 'Post 3',
-        description: 'Description 3',
-        image: '../assets/LOL/postVideo/1.mp4',
-        content: 'Content 3'
+        description: '1 ngày trước',
+        image: require('../assets/LOL/cover/1.jpg'),
+        content: 'Content 3\n\
+        Content 3\n\
+        Content 3\n\
+        Content 3\n\
+        Content 3\n\
+        Content 3\n\
+        ',
+        idUser: 2
     },
     {
         id: 4,
         title: 'Post 4',
-        description: 'Description 4',
-        image: '../assets/LOL/postVideo/1.mp4',
-        content: 'Content 4'
+        description: '6 ngày trước',
+        image: require('../assets/LOL/cover/1.jpg'),
+        content: 'Content 4',
+        idUser: 2
     },
     {
         id: 5,
         title: 'Post 5',
-        description: 'Description 5',
-        image: '../assets/LOL/postVideo/1.mp4',
-        content: 'Content 5'
+        description: '2 phút trước',
+        image: require('../assets/LOL/cover/1.jpg'),
+        content: 'Content 5',
+        idUser: 1
     },
     {
         id: 6,
         title: 'Post 6',
-        description: 'Description 6',
-        image: '../assets/LOL/postVideo/1.mp4',
-        content: 'Content 6'
+        description: '1 tuần trước',
+        image: require('../assets/LOL/cover/1.jpg'),
+        content: 'Content 6',
+        idUser: 2
     },
     {
         id: 7,
         title: 'Post 7',
-        description: 'Description 7',
-        image: '../assets/LOL/postVideo/1.mp4',
-        content: 'Content 7'
+        description: '1 ngày trước',
+        image: require('../assets/LOL/cover/1.jpg'),
+        content: 'Content 7',
+        idUser: 1
     },
-    // {
-    //     id: 8,
-    //     title: 'Post 8',
-    //     description: 'Description 8',
-    //     image: '../assets/LOL/postVideo/1.mp4',
-    //     content: 'Content 8'
-    // },
-    // {
-    //     id: 9,
-    //     title: 'Post 9',
-    //     description: 'Description 9',
-    //     image: '../assets/LOL/postVideo/1.mp4',
-    //     content: 'Content 9'
-    // },
-    // {
-    //     id: 10,
-    //     title: 'Post 10',
-    //     description: 'Description 10',
-    //     image: '../assets/LOL/postVideo/1.mp4',
-    //     content: 'Content 10'
-    // },
-    // {
-    //     id: 11,
-    //     title: 'Post 11',
-    //     description: 'Description 11',
-    //     image: '../assets/LOL/postVideo/1.mp4',
-    //     content: 'Content 11'
-    // }
+   
 ];
 export default ListPost;

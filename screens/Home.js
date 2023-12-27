@@ -11,6 +11,7 @@ import Post from '../components/Post'
 import logos from '../data/List_game'
 import coverLOL from '../data/List_cover_LOL'
 import listPost from '../data/ListPost'
+import listUser from '../data/List_user'
 
 const Home = () => {
 
@@ -67,11 +68,13 @@ const Home = () => {
               {
                 listPost.map((item, index) => (
                   <Post
+                    userName={listUser[item.idUser - 1].name}
                     key={index}
                     title={item.title}
                     description={item.description}
                     image={item.image}
-                    content={item.content} />
+                    content={item.content} 
+                    />
                 ))
               }
             </ScrollView>
